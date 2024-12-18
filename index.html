@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Righteous&display=swap" rel="stylesheet">
+    <title>document</title>
+    
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="row m-5">
+                <h1 class="text-center">Book marker</h1>
+                <div class="mainContent my-5">
+                    <h3 class="text-center my-4"><i class="fa-solid fa-bookmark"></i> Bookmark your favorite sites <i class="fa-solid fa-bookmark"></i></h3>
+                    <div class="mb-3">
+                        <label for="floatingInput"><i class="fa-solid fa-book"></i>  Site Name</label>
+                        <input type="email" class="form-control" id="site" placeholder="Bookmark Name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="floatingInput"><i class="fa-solid fa-link"></i>   Site URL</label>
+                        <input type="email" class="form-control" id="url" placeholder="Website URL">
+                    </div>
+                    <button type="button" class="btn btn-danger btn-sm px-4 mx-auto d-block my-3" id="submitBtn">submit</button>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="container bg-danger">
+            <div class="row">
+                <table class="table text-center">
+                    <thead>
+                      <tr>
+                        <th scope="col">Index</th>
+                        <th scope="col">Website Name</th>
+                        <th scope="col">Visit</th>
+                        <th scope="col">Delete</th>
+                      </tr>
+                    </thead>
+                    <tbody id="tableBody">
+                      
+                      
+                        
+                      
+                    
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+
+
+       
+     
+        
+        
+       
+    
+       
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="./js/bootstrap.bundle.min.js"></script>
+        <script src="./js/index.js"></script>
+    </body>
+</html>

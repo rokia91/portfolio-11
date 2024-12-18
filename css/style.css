@@ -1,0 +1,53 @@
+::selection{
+    background-color: #FEC260;
+  }
+  
+  h1{
+    font-family: "Pacifico", cursive;
+    font-size: 50px;
+    font-weight: 500;
+    position: relative;
+  }
+  h1::before{
+    content: '';
+    width: 280px;
+    height: 40%;
+    background-color:#FEC260;
+    bottom: 0px;
+    position: absolute;
+    z-index: -1;
+    transition: 0.5s;
+  }
+  h1:hover::before {
+    height: 70%;
+  }
+  
+  
+  
+  h3{
+    font-family: "Righteous", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  bottom: 0px;
+  }
+  
+  body {
+    font-family: "PT Sans Caption", sans-serif;
+      background-color: antiquewhite;
+    }
+  
+  .mainContent{
+      border-top:1px black dotted;
+      border-bottom:1px black dotted;
+      
+  }
+  .form-control:focus {
+    box-shadow: 0 0 0 0.25rem #FEC260;
+  }
+  .warning-title{
+    font-family: "Bree Serif", serif;
+    font-size: 21px;
+    font-weight: 400;
+  }
